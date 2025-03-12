@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ---------------- Main Layout ---------------- */
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 5% 10%;
+
+}
+
+/* Left Container for All Cart Items */
+.cart-items-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Each Cart Item */
+.cart-item {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 205px;
+    display: flex;
+    align-items: center;
+}
+
+.cart-item ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    width: 100%;
+}
+
+/* Tweak the product image */
+.cart-item ul li img {
+    width: 150px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Product Details */
+.product-details h4 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.product-details h5 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.cart-item ul .product-details,
+.cart-item ul .product-quantity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cart-item ul .product-quantity {
+    border-right: 1px solid gray;
+    padding-right: 10px;
+    min-width: 80px;
+    align-items: center;
+}
+
+.cart-item ul .product-quantity input {
+    width: 60px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+/* Shipping/Customer Details (Right Side) */
+.customer-details {
+    flex: 0 0 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.customer-details h2 {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.customer-details fieldset {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.customer-details label {
+    display: block;
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.customer-details input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.customer-details .row {
+    display: flex;
+    gap: 10px;
+}
+
+.customer-details .row input {
+    flex: 1;
+}
+
+/* Order Summary */
+.summary {
+    background: #f7f8fc;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.summary p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.summary .total {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Checkout Button */
+.customer-details button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: rgba(0, 128, 0, 0.74);
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.customer-details button[type="submit"]:hover {
+    background: green;
+}
+
+/* ---------------- Responsive (Below 768px) ---------------- */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        margin: 5% 5%;
+    }
+
+    .cart-items-container,
+    .customer-details {
+        flex: none;
+        width: 100%;
+    }
+
+    .cart-item {
+        min-height: auto;
+    }
+
+    .cart-item ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cart-item ul .product-quantity {
+        border: none;
+        padding-right: 0;
+        align-items: flex-start;
+    }
+}
+
+/* ---------------- Payment Modal Styles ---------------- */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-overlay.show {
+    display: flex;
+    /* Show the modal */
+}
+
+.modal-content {
+    background: #fff;
+    width: 400px;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.close-modal {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.payment-logos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.payment-logos img {
+    height: 30px;
+    width: auto;
+}
+
+.modal-content form fieldset {
+    border: none;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.modal-content form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.modal-content form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.modal-content .row {
+    display: flex;
+    gap: 10px;
+}
+
+.modal-total {
+    font-size: 16px;
+    margin: 15px 0;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pay-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: rgba(0, 128, 0, 0.733);
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pay-btn:hover {
+    background: green;
+}

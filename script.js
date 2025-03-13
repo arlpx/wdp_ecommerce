@@ -386,7 +386,46 @@ function displayNewProducts() {
     });
 }
 
+const searchInput = document.getElementById("inputSearch");
 
+// Function to filter and display products based on search input
+function searchProducts() {
+    const query = searchInput.value.toLowerCase(); 
+    let html = "";
+
+    products.forEach(product => {
+        if (product.name.toLowerCase().includes(query) || product.category.toLowerCase().includes(query)) {
+            html += `
+                <li class="card" data-category="${product.category}" data-name="${product.name}">
+                    <img src="${product.image[0]}" alt="${product.name}">
+                    <h4>${product.name}</h4>
+                    <p>
+                        ${getStarRating(product.rating)}
+                        <span>(${product.reviews})</span>
+                    </p>
+                    <h5>${product.price}</h5>
+                </li>
+            `;
+        }
+    });
+    // Update the product list
+    productContainer.innerHTML = html;
+
+    // Add event listeners to each product for redirection
+    document.querySelectorAll(".card").forEach(item => {
+        item.addEventListener("click", function () {
+            const productName = this.dataset.name;
+            const productData = products.find(product => product.name === productName);
+            
+            if (productData) {
+                localStorage.setItem("selectedProduct", JSON.stringify(productData));
+                window.location.href = "product-view.html";
+            }
+        });
+    });
+}
+// Listen for user input in the search bar
+searchInput.addEventListener("input", searchProducts);
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -582,4 +621,3 @@ loginSubmit.addEventListener('click', () => {
     alert('Invalid email or password.');
   }
 });
-

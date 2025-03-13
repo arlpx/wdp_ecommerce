@@ -10,7 +10,6 @@
 header {
     display: flex;
     align-items: center;
-    width: 100vw;
     justify-content: space-between;
     border-bottom: 1px solid black;
     padding: 5px 4%;
@@ -66,6 +65,7 @@ header .search,
 
 header .search form {
     position: relative;
+    visibility: hidden;
 }
 
 header .search input {
@@ -274,6 +274,92 @@ footer h4 {
     font-size: small;
 }
 
+/* Modal Styles */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .modal-content input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .modal-content button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #14213d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-content .toggle {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .modal-content .toggle a {
+    color: #14213d;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+  }
+  
+  /* Header logged in state styling */
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-info button {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
 
 @media (min-width: 481px) and (max-width: 1023px) {
     header {
@@ -325,6 +411,7 @@ footer h4 {
     header .search form {
         position: relative;
         width: auto;
+      
     }
 
     header .search input {

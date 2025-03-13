@@ -1,195 +1,172 @@
 CATEGORY: BRANDS
 
 JORDAN
+Product 1
+title: Jordan AJ 1 Mid
+image: jordan_aj1_1.webp, jordan_aj1_2.webp, jordan_aj1_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱7,182.75
+short description: Casual Shoes
+button (add to cart)
 
-{
-    "name": "Jordan AJ 1 Mid",
-    "category": "jordan",
-    "image": "assets/product_img/jordan/jordan_aj1_1.webp", "assets/product_img/jordan/jordan_aj1_2.webp", "assets/product_img/jordan/jordan_aj1_3.webp",
-    "price": "₱ 7,182.75",
-    "rating": 5.0,
-    "reviews": 360
-}
+Product 2:
+title: Jordan AJ 1 Low
+image: jordan_aj1_low_1.webp, jordan_aj1_low_2.webp, jordan_aj1_low_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱6608.13
+short description: Casual Shoes
+button (add to cart)
 
-{
-    "name": "Jordan AJ 1 Low",
-    "category": "jordan",
-    "image": "assets/product_img/jordan/jordan_aj1_low_1.webp", "assets/product_img/jordan/jordan_aj1_low_2.webp", "assets/product_img/jordan/jordan_aj1_low_3.webp",
-    "price": "₱ 6,608.13",
-    "rating": 4.5,
-    "reviews": 240
-}
+Product 3:
+title: Jordan Tatum 3
+image: jordan_tatum_3_1.webp, jordan_tatum_3_2.webp, jordan_tatum_3_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱7182.75
+short description: Basketball Shoes
+button (add to cart)
 
-{
-    "name": "Jordan Tatum 3",
-    "category": "jordan",
-    "image": "assets/product_img/jordan/jordan_tatum_3_1.webp", "assets/product_img/jordan/jordan_tatum_3_2.webp", "assets/product_img/jordan/jordan_tatum_3_3.webp",
-    "price": "₱ 7,182.75",
-    "rating": 4.0,
-    "reviews": 130
-}
-
-{
-    "name": "Jordan AJ XXXIX",
-    "category": "jordan",
-    "image": "assets/product_img/jordan/jordan_aj_xxxix_1.webp", "assets/product_img/jordan/jordan_aj_xxxix_2.webp", "assets/product_img/jordan/jordan_aj_xxxix_3.webp",
-    "price": "₱ 11,492.40",
-    "rating": 5.0,
-    "reviews": 60
-}
+Product 4:
+title: Jordan AJ XXXIX
+image: jordan_aj_xxxix_1.webp, jordan_aj_xxxix_2.webp, jordan_aj_xxxix_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱11492.40
+short description: Basketball Shoes
+button (add to cart)
 
 
 NEW BALANCE
+Product 1
+title: New Balance FuelCell SuperComp Trail
+image: new_balance_fst_1.webp, new_balance_fst_2.webp, new_balance_fst_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱11494.02
+short description: Hiking Shoes
+button (add to cart)
 
-{
-    "name": "New Balance FuelCell SuperComp Trail",
-    "category": "new_balance",
-    "image": "assets/product_img/new_balance/new_balance_fst_1.png", "assets/product_img/new_balance/new_balance_fst_2.png", "assets/product_img/new_balance/new_balance_fst_3.png",
-    "price": "₱ 11,494.02",
-    "rating": 4.5,
-    "reviews": 120
-}
+Product 2:
+title: New Balance Fresh Foam X Vongo v6
+image: new_balance_ffxvv6_1.webp, new_balance_ffxvv6_2.webp, new_balance_ffxvv6_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱9482.47
+short description: Running Shoes
+button (add to cart)
 
-{
-    "name": "New Balance Fresh Foam X Vongo v6",
-    "category": "new_balance",
-    "image": "assets/product_img/new_balance/new_balance_ffxvv6_1.png", "assets/product_img/new_balance/new_balance_ffxvv6_2.png", "assets/product_img/new_balance/new_balance_ffxvv6_3.png",
-    "price": "₱ 9,482.47",
-    "rating": 4.8,
-    "reviews": 223
-}
+Product 3:
+title: New Balance 8Five2 x NB Numeric 480
+image: new_balance_8xnbn480_1.webp, new_balance_8xnbn480_2.webp, new_balance_8xnbn480_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱6321.45
+short description: Skateboard Shoes
+button (add to cart)
 
-{
-    "name": "New Balance 8Five2 x NB Numeric 480",
-    "category": "new_balance",
-    "image": "assets/product_img/new_balance/new_balance_8xnbn480_1.png", "assets/product_img/new_balance/new_balance_8xnbn480_2.png", "assets/product_img/new_balance/new_balance_8xnbn480_3.png",
-    "price": "₱ 6,321.45",
-    "rating": 4.0,
-    "reviews": 90
-}
-
-{
-    "name": "New Balance 9060",
-    "category": "new_balance",
-    "image": "assets/product_img/new_balance/new_balance_9060_1.png", "assets/product_img/new_balance/new_balance_9060_2.png", "assets/product_img/new_balance/new_balance_9060_3.png",
-    "price": "₱ 8,620.37",
-    "rating": 4.5,
-    "reviews": 150
-}
+Product 4:
+title: New Balance 9060
+image: new_balance_9060_1.webp, new_balance_9060_2.webp, new_balance_9060_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱8620.37
+short description: Casual Shoes
+button (add to cart)
 
 
 NIKE
+Product 1
+title: Nike Vomero 18
+image: nike_vomero18_1.png, nike_vomero18_2.png, nike_vomero18_3.png
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱8,395.00
+short description: Running Shoes 
+button (add to cart)
 
-{
-    "name": "Nike Vomero 18",
-    "category": "nike",
-    "image": "assets/product_img/nike/nike_vomero18_1.png", "assets/product_img/nike/nike_vomero18_2.png", "assets/product_img/nike/nike_vomero18_3.png",
-    "price": "₱ 8,395.00",
-    "rating": 4.5,
-    "reviews": 243
-}
+Product 2:
+title: Nike Air Max Dn8
+image: nike_amdn8_1.png, nike_amdn8_2.png, nike_amdn8_3.png
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱10,895.00
+short description: Casual Shoes
+button (add to cart)
 
-{
-    "name": "Nike Air Max Dn8",
-    "category": "nike",
-    "image": "assets/product_img/nike/nike_amdn8_1.png", "assets/product_img/nike/nike_amdn8_2.png", "assets/product_img/nike/nike_amdn8_3.png",
-    "price": "₱ 10,895.00",
-    "rating": 4.0,
-    "reviews": 150
-}
+Product 3:
+title: Nike Kobe VIII
+image: nike_kobe8_1.png, nike_kobe8_2.png, nike_kobe8_3.png
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱10,795.00
+short description: Basketball Shoes
+button (add to cart)
 
-{
-    "name": "Nike Kobe VIII",
-    "category": "nike",
-    "image": "assets/product_img/nike/nike_kobe8_1.png", "assets/product_img/nike/nike_kobe8_2.png", "assets/product_img/nike/nike_kobe8_3.png",
-    "price": "₱ 10,795.00",
-    "rating": 5.0,
-    "reviews": 240
-}
-
-{
-    "name": "Nike G.T. Cut 3 EP",
-    "category": "nike",
-    "image": "assets/product_img/nike/nike_gtcut3_1.png", "assets/product_img/nike/nike_gtcut3_2.png", "assets/product_img/nike/nike_gtcut3_3.png",
-    "price": "₱ 10,295.00",
-    "rating": 4.3,
-    "reviews": 165
-}
+Product 4:
+title: Nike G.T. Cut 3 EP
+image: nike_gtcut3_1.png, nike_gtcut3_2.png, nike_gtcut3_3.png
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱10,295.00
+short description: Basketball Shoes
+button (add to cart)
 
 
 CROCS
+Product 1
+title: Crocs Monsters Inc Mike Clog
+image: crocs_mikeclog_1.webp, crocs_mikeclog_2.webp, crocs_mikeclog_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱4,495.00
+short description: Clogs
+button (add to cart)
 
-{
-    "name": "Crocs Monsters Inc Mike Clog",
-    "category": "crocs",
-    "image": "assets/product_img/crocs/crocs_mikeclog_1.webp", "assets/product_img/crocs/crocs_mikeclog_2.webp", "assets/product_img/crocs/crocs_mikeclog_3.webp",
-    "price": "₱ 4,495.00",
-    "rating": 4.5,
-    "reviews": 120
-}
+Product 2:
+title: Crocs Baya Sandal
+image: crocs_baya_1.webp, crocs_baya_2.webp, crocs_baya_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱2,845.00
+short description: Sandals
+button (add to cart)
 
-{
-    "name": "Crocs Baya Sandal",
-    "category": "crocs",
-    "image": "assets/product_img/crocs/crocs_baya_1.webp", "assets/product_img/crocs/crocs_baya_2.webp", "assets/product_img/crocs/crocs_baya_3.webp",
-    "price": "₱ 2,845.00",
-    "rating": 4.0,
-    "reviews": 90
-}
+Product 3:
+title: Crocs Echo Clog
+image: crocs_echo_1.webp, crocs_echo_2.webp, crocs_echo_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱4,495.00
+short description: Clogs
+button (add to cart)
 
-{
-    "name": "Crocs Echo Clog",
-    "category": "crocs",
-    "image": "assets/product_img/crocs/crocs_echo_1.webp", "assets/product_img/crocs/crocs_echo_2.webp", "assets/product_img/crocs/crocs_echo_3.webp",
-    "price": "₱ 4,495.00",
-    "rating": 4.5,
-    "reviews": 150
-}
-
-{
-    "name": "Crocs Bayaband Flip",
-    "category": "crocs",
-    "image": "assets/product_img/crocs/crocs_bayaband_1.webp", "assets/product_img/crocs/crocs_bayaband_2.webp", "assets/product_img/crocs/crocs_bayaband_3.webp",
-    "price": "₱ 2,370.00",
-    "rating": 4.0,
-    "reviews": 100
-}
+Product 4:
+title: Crocs Bayaband Flip
+image: crocs_bayaband_1.webp, crocs_bayaband_2.webp, crocs_bayaband_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱2,370.00
+short description: Sandals
+button (add to cart)
 
 
 ASICS
+Product 1
+title: Asics Novablast 5
+image: asics_novablast5_1.webp, asics_novablast5_2.webp, asics_novablast5_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱9,090.00
+short description: Running Shoes
+button (add to cart)
 
-{
-    "name": "Asics Novablast 5",
-    "category": "asics",
-    "image": "assets/product_img/asics/asics_novablast5_1.webp", "assets/product_img/asics/asics_novablast5_2.webp", "assets/product_img/asics/asics_novablast5_3.webp",
-    "price": "₱ 9,090.00",
-    "rating": 5.0,
-    "reviews": 312
-}
+Product 2:
+title: Asics Solution Speed
+image: asics_solspeed_1.webp, asics_solspeed_2.webp, asics_solspeed_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱9,490.00
+short description: Tennis Shoes
+button (add to cart)
 
-{
-    "name": "Asics Solution Speed",
-    "category": "asics",
-    "image": "assets/product_img/asics/asics_solspeed_1.webp", "assets/product_img/asics/asics_solspeed_2.webp", "assets/product_img/asics/asics_solspeed_3.webp",
-    "price": "₱ 9,490.00",
-    "rating": 4.0,
-    "reviews": 90
-}
+Product 3:
+title: Asics Netburner Professional
+image: asics_netburner_1.webp, asics_netburner_2webp, asics_netburner_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱9,490.00
+short description: Volleyball Shoes
+button (add to cart)
 
-{
-    "name": "Asics Netburner Professional",
-    "category": "asics",
-    "image": "assets/product_img/asics/asics_netburner_1.webp", "assets/product_img/asics/asics_netburner_2.webp", "assets/product_img/asics/asics_netburner_3.webp",
-    "price": "₱ 9,490.00",
-    "rating": 4.5,
-    "reviews": 250
-}
+Product 4:
+title: Asics Gel Sonoma 7
+image: asics_sonoma_1.webp, asics_sonoma_2.webp, asics_sonoma_3.webp
+size: 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+price: ₱5,590.00
+short description: Hiking Shoes
+button (add to cart)
 
-{
-    "name": "Asics Gel Sonoma 7",
-    "category": "asics",
-    "image": "assets/product_img/asics/asics_sonoma_1.webp", "assets/product_img/asics/asics_sonoma_2.webp", "assets/product_img/asics/asics_sonoma_3.webp",
-    "price": "₱ 5,590.00",
-    "rating": 4.4,
-    "reviews": 176
-}
+

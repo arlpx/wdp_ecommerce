@@ -5,7 +5,6 @@
     /* outline: 1px solid blue; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-/* Header Container */
 header{
     display: flex;
     align-items: center;
@@ -54,6 +53,7 @@ header nav a, main button{
 }
  header .search form{
     position: relative;
+    visibility: hidden;
 }
  header .search input{
     padding: 5px 5px 5px 30px;
@@ -90,97 +90,122 @@ header nav a, main button{
     border-radius: 6px;
 }
 
-main {
-    margin: 2% 4%;
-    display: flex; 
-    gap: 50px; 
-    align-items: flex-start; 
-    text-align: center;
-    height: 100vh;
+main{
+    margin: 2% 10%;
 }
-main .categories {
-    height: 100vh;
-    width: 10%;
-}
-main .categories h3,
-main .products h3{
-    color: rgba(128, 128, 128, 0.616);
-}
-main .categories ul li {
-    border-radius: 6px;
-    text-align: center;
-    list-style: none;
-    margin: 20px 0px;
-    height: auto;
-    width: 150px;
-    box-shadow:2px 2px 2px 2px rgba(128, 128, 128, 0.233);
-    
-}
-main .categories ul li a {
+
+main a{
     text-decoration: none;
-    color: gray;
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 12px;
+    color: rgba(0, 0, 0, 0.89);
 }
-main .categories ul li a:hover{
-    transition: 0.2s ease-in-out;
-    scale: 1.05;
+
+.product {
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+}
+
+.product-gallery {
+    flex: 1;
+}
+
+.thumbnail-gallery {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.thumbnail-gallery img {
+    width: 80px;
+    height: 80px;
     cursor: pointer;
-    
+    border: 2px solid transparent;
+    transition: border 0.3s ease-in-out;
 }
-/* This is the link active styling */
-.categories ul li a.active {
-    color: red;
-    text-decoration: underline;
+
+.thumbnail-gallery img:hover {
+    border: 2px solid #333;
 }
-/* end */
-main .products{
+
+.main-image {
+    width: 400px;
+    height: auto;
+}
+
+/* Product Details */
+.product-details {
+    flex: 1;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.color {
+    font-size: 16px;
+}
+
+.sizes, .quantity {
+    margin: 15px 0;
+}
+
+.size-options {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 }
-main .product-list {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); 
-    gap: 20px;
-    justify-content: center;
-    margin: 10px;
-}
-main .product-list .card{
-    border-radius: 6px;
-    margin-top: 10px;
-    border: 1px solid rgba(128, 128, 128, 0.616);
-    box-shadow:2px 2px 2px 2px rgba(128, 128, 128, 0.233);
-    height: 100%;
-}
-main .product-list .card img{
+
+.size-options button, .quantity-btn {
+    margin: 5px 2px;
     padding: 10px;
-    height: 200px;
-    width: 200px;
-}
-
-.product-list .card p,
-.product-list .card h4,
-.product-listl .card h5{
-    margin: 10px ;
-}
-
-.product-list .card:hover{
-    transition: 0.3s ease-in-out;
-    scale: 1.05;
+    background-color: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px gray ;
+    border: none;
     cursor: pointer;
-    
+    background: white;
+    width: 7%;
 }
-.card-link {
-    text-decoration: none;
-    color: inherit;
+.quantity-btn {
+    width: 15%;
+}
+
+.buy-now,
+.add-cart {
     display: block;
-}
-.card {
+    width: 100%;
+    padding: 10px;
+    background: navy;
+    color: white;
+    font-size: 16px;
+    border: none;
     cursor: pointer;
+    margin-top: 15px;
+}
+
+.add-cart{
+    background: rgb(65, 211, 65);
+}
+
+.details {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.size-btn.active {
+    background-color: #d3d3d3; 
+    border: 2px solid #333;
 }
 
 @media (min-width: 481px) and (max-width: 1023px) {

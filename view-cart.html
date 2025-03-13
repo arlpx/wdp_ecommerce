@@ -6,11 +6,29 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>RJA KICKS | Cart</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="view-cart-styles.css">
 </head>
 
 <body>
-    <div id="navbar"></div>
+    <header>
+        <img src="assets/logo/logo_rja.png" alt="RJA Logo">
+        <nav>
+            <a href="landing-page.html">Home</a>
+            <a href="dashboard.html">Products</a>
+            <a href="#brands-container">Brands</a>
+        </nav>
+        <section class="search">
+            <form>
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" name="search" id="inputSearch" placeholder="Search Products">
+            </form>
+            <a href="#" class="cart_btn"><i class="fa-solid fa-bag-shopping bag-icon"></i>Cart (3)</a>
+        </section>
+        <section class="buttons">
+            <!-- <a id="signup" href="#">Sign Up</a>
+            <a id="login" href="#">Log in</a> -->
+        </section>
+    </header>
 
     <main>
         <!-- Left side: container for all cart items -->
@@ -35,28 +53,6 @@
                     </li>
                 </ul>
             </section>
-
-            <!-- Example Cart Item 2 -->
-            <section class="cart-item" data-price="6990.00">
-                <ul>
-                    <li>
-                        <img src="assets/product_img/asics/asics_sonoma_1.webp" alt="Asics Sonoma" />
-                    </li>
-                    <li class="product-details">
-                        <h4>Asics Sonoma</h4>
-                        <h5>₱ 6990.00</h5>
-                        <p>Size: 9</p>
-                    </li>
-                    <li class="product-quantity">
-                        <p>Quantity</p>
-                        <input type="number" min="1" max="99" value="1" />
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-xmark remove-icon" style="margin: auto; cursor: pointer;"></i>
-                    </li>
-                </ul>
-            </section>
-            <!-- Add more .cart-item sections as needed, each with data-price -->
         </div>
 
         <!-- Right side: Shipping Form -->
@@ -156,6 +152,7 @@
             </form>
         </div>
     </div>
+    <script src="view-cart-script.js"></script>
     <script src="script.js"></script>
 </body>
 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RJA KICKS| Product Details</title>
+    <link rel="stylesheet" href="solo-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <section class="logo-container">
+            <img src="assets/logo/logo_rja.png" alt="RJA Logo">
+        </section>
+        <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="burger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        <nav>
+            <a href="landing-page.html">Home</a>
+            <a href="dashboard.html">Products</a>
+            <a href="#brands-container">Brands</a>
+        </nav>
+        <section class="search">
+            <form>
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" name="search" id="inputSearch" placeholder="Search Products">
+            </form>
+            <a href="view-cart.html" class="cart_btn"><i class="fa-solid fa-bag-shopping bag-icon"></i><span class="cart-text">Cart (3)</span></a>
+        </section>
+        <section class="buttons">
+            
+        </section>
+    </header>
+    <main>
+        <a href="dashboard.html"> < All Products</a>
+        <section class="product">
+            <section class="product-gallery">
+                <img  id="main-image" alt="Asics Sonoma Shoe" class="main-image">
+                <section class="thumbnail-gallery"></section>
+            </section>
+            <section class="product-details">
+                <h1 id="product-name">GEL-SONOMA™ 7 GTX</h1>
+                <p id="product-price" class="price">₱ 6,990.00</p>
+                <p class="color">Color: <strong id="product-color">PIEDMONT BLACK/GREEN</strong></p>
+                <p id="product-rating"></p>
+            <section class="sizes">
+                <p>Size:</p>
+                <div class="size-options" id="size-options"></div>
+            </section>
+                <section class="quantity">
+                    <p>Quantity:</p>
+                    <input type="number" class="quantity-btn" placeholder="1">
+                </section>
+                <button class="buy-now">Buy Now</button>
+                <button class="add-cart">Add to Cart</button>
+            </section>
+        </section>
+        <section class="details">
+            <h2>Details</h2>
+           <p id="product-description"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="product-view.js"></script>
+</body>
+</html>

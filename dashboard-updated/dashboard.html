@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RJA KICKS | Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <section class="logo-container">
+            <img src="assets/logo/logo_rja.png" alt="RJA Logo">
+        </section>
+        <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="burger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        <nav>
+            <a>Home</a>
+            <a>Products</a>
+            <a>Brands</a>
+        </nav>
+        <section class="search">
+            <form>
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" name="search" id="inputSearch" placeholder="Search Products">
+            </form>
+            <a href="#" class="cart_btn"><i class="fa-solid fa-bag-shopping bag-icon"></i><span class="cart-text">Cart (3)</span></a>
+        </section>
+        <section class="buttons">
+            <a id="signup" href="#">Sign Up</a>
+            <a id="login" href="#">Log in</a>
+        </section>
+    </header>
+    <main>
+        <aside class="categories">
+            <h3>Categories</h3>
+            <ul id="categoryList">
+                <li><a href="#" data-category="all">All Products</a></li>
+                <li><a href="#" data-category="nike">Nike</a></li>
+                <li><a href="#" data-category="asics">Asics</a></li>
+                <li><a href="#" data-category="crocs">Crocs</a></li>
+                <li><a href="#" data-category="jordan">Jordan</a></li>
+                <li><a href="#" data-category="new-balance">New Balance</a></li>
+            </ul>
+        </aside>
+        <section class="products">
+            <ul class="product-list">  
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
